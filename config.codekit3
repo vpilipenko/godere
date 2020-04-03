@@ -15,6 +15,14 @@
 		"oAP": "/dist/dist",
 		"oF": 0
 		},
+	"/src/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/.gitignore",
+		"oF": 0
+		},
 	"/src/assets/js/main.js": {
 		"bF": 2,
 		"ft": 64,
