@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="RU">
-<!-- Сделано в © Фромбокс / www.frombox.ru -->
 
 <head>
 	<meta charset="utf-8">
@@ -17,14 +16,35 @@
 </head>
 <body>
 
-<!-- Header -->
-<? include 'components/header/header.php' ?>
-<!-- Header end -->
+<div class="container">
+<!-- Main -->
+<? include 'components/main/main.php' ?>
+<!-- Main end-->
 
+<h2>Каталог товаров</h2>
+
+<!-- Tabs -->
+<? include 'components/tabs/tabs.php' ?>
+<!-- Tabs end -->
+
+
+<!-- List -->
+<? include 'components/list/list.php' ?>
+<!-- List end -->
+
+<h2>Хиты продаж</h2>
+
+<? include 'components/list/list.php' ?>
+
+<h2>Наши партнеры</h2>
+
+<? include 'components/partners/partners.php' ?>
 
 <!-- Footer -->
 <? include 'components/footer/footer.php' ?>
 <!-- Footer end -->
+</div>
+
 
 <!-- JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

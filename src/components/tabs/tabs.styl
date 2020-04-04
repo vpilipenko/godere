@@ -1,0 +1,35 @@
+.godere-tabs {
+  position relative
+  z-index 1
+  margin-bottom 2rem
+
+  &__list {
+    display flex
+    margin 0
+    padding 0
+    list-style-type none
+  }
+
+  &__item {
+    padding: .5rem 2.5rem;
+    border-radius: 5rem;
+    font-size: .75rem;
+    margin-right 1rem
+
+    &:hover {
+      box-shadow 0 0 2px $secondaryRed
+      color $secondaryRed
+      cursor pointer
+    }
+
+    &_active {
+      background $secondaryRed
+      color: $mainWhite;
+
+      &:hover {
+        box-shadow none
+        color $mainWhite
+      }
+    }
+  }
+}

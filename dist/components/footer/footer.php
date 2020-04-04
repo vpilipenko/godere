@@ -1,3 +1,3 @@
-<footer class='footer'>
+<footer class='godere-footer'>
   Footer
 </footer>

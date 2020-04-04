@@ -15,6 +15,14 @@
 		"oAP": "/dist/dist",
 		"oF": 0
 		},
+	"/package-lock.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/dist/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/src/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -22,6 +30,138 @@
 		"oA": 0,
 		"oAP": "/dist/.gitignore",
 		"oF": 0
+		},
+	"/src/assets/img/basket_invert.png": {
+		"ft": 32768,
+		"iS": 292,
+		"oA": 0,
+		"oAP": "/dist/assets/img/basket_invert.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/check.png": {
+		"ft": 32768,
+		"iS": 530,
+		"oA": 0,
+		"oAP": "/dist/assets/img/check.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/item1.png": {
+		"ft": 32768,
+		"iS": 13086,
+		"oA": 0,
+		"oAP": "/dist/assets/img/item1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/item2.png": {
+		"ft": 32768,
+		"iS": 11095,
+		"oA": 0,
+		"oAP": "/dist/assets/img/item2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/item3.png": {
+		"ft": 32768,
+		"iS": 11669,
+		"oA": 0,
+		"oAP": "/dist/assets/img/item3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/item4.png": {
+		"ft": 32768,
+		"iS": 8434,
+		"oA": 0,
+		"oAP": "/dist/assets/img/item4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/logo_invert.png": {
+		"ft": 32768,
+		"iS": 2240,
+		"oA": 0,
+		"oAP": "/dist/assets/img/logo_invert.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/main.png": {
+		"ft": 32768,
+		"iS": 66569,
+		"oA": 0,
+		"oAP": "/dist/assets/img/main.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/partner1.png": {
+		"ft": 32768,
+		"iS": 10623,
+		"oA": 0,
+		"oAP": "/dist/assets/img/partner1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/partner2.png": {
+		"ft": 32768,
+		"iS": 7206,
+		"oA": 0,
+		"oAP": "/dist/assets/img/partner2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/partner3.png": {
+		"ft": 32768,
+		"iS": 23433,
+		"oA": 0,
+		"oAP": "/dist/assets/img/partner3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/search_invert.png": {
+		"ft": 32768,
+		"iS": 276,
+		"oA": 0,
+		"oAP": "/dist/assets/img/search_invert.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/src/assets/js/main.js": {
 		"bF": 2,
@@ -333,6 +473,51 @@
 		"oS": 1,
 		"rrU": 1
 		},
+	"/src/cart.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/cart.php",
+		"oF": 0
+		},
+	"/src/catalog.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/catalog.php",
+		"oF": 0
+		},
+	"/src/checkout.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/checkout.php",
+		"oF": 0
+		},
+	"/src/components/basket/basket.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/components/basket/basket.php",
+		"oF": 0
+		},
+	"/src/components/basket/basket.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 1,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/components/basket/basket-min.css",
+		"oF": 0,
+		"oS": 1,
+		"rrU": 1
+		},
 	"/src/components/footer/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -386,12 +571,218 @@
 		"oS": 1,
 		"rrU": 1
 		},
+	"/src/components/item/item.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/components/item/item.php",
+		"oF": 0
+		},
+	"/src/components/item/item.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 1,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/components/item/item-min.css",
+		"oF": 0,
+		"oS": 1,
+		"rrU": 1
+		},
+	"/src/components/list/list.js": {
+		"bF": 2,
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dist/components/list/list-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"/src/components/list/list.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/components/list/list.php",
+		"oF": 0
+		},
+	"/src/components/list/list.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 1,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/components/list/list-min.css",
+		"oF": 0,
+		"oS": 1,
+		"rrU": 1
+		},
+	"/src/components/logo/logo.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/components/logo/logo.php",
+		"oF": 0
+		},
+	"/src/components/logo/logo.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 1,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/components/logo/logo-min.css",
+		"oF": 0,
+		"oS": 1,
+		"rrU": 1
+		},
+	"/src/components/main/main.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/components/main/main.php",
+		"oF": 0
+		},
+	"/src/components/main/main.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 1,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/components/main/main-min.css",
+		"oF": 0,
+		"oS": 1,
+		"rrU": 1
+		},
+	"/src/components/menu/menu.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/components/menu/menu.php",
+		"oF": 0
+		},
+	"/src/components/menu/menu.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 1,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/components/menu/menu-min.css",
+		"oF": 0,
+		"oS": 1,
+		"rrU": 1
+		},
+	"/src/components/partners/partners.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/components/partners/partners.php",
+		"oF": 0
+		},
+	"/src/components/partners/partners.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 1,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/components/partners/partners-min.css",
+		"oF": 0,
+		"oS": 1,
+		"rrU": 1
+		},
+	"/src/components/search/search.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/components/search/search.php",
+		"oF": 0
+		},
+	"/src/components/search/search.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 1,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/components/search/search-min.css",
+		"oF": 0,
+		"oS": 1,
+		"rrU": 1
+		},
+	"/src/components/tabs/tabs.js": {
+		"bF": 2,
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dist/components/tabs/tabs-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"/src/components/tabs/tabs.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/components/tabs/tabs.php",
+		"oF": 0
+		},
+	"/src/components/tabs/tabs.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 1,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/components/tabs/tabs-min.css",
+		"oF": 0,
+		"oS": 1,
+		"rrU": 1
+		},
 	"/src/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dist/index.php",
+		"oF": 0
+		},
+	"/src/page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/page.php",
+		"oF": 0
+		},
+	"/src/success.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/success.php",
 		"oF": 0
 		}
 	},
@@ -405,7 +796,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-koamaru",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 607634347.59308898
+	"lastBuiltDate": 607721661.68480098
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
