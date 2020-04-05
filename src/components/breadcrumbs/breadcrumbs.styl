@@ -1,0 +1,26 @@
+.godere-breadcrumbs {
+  display flex
+
+  &__link {
+    color: $secondaryRed
+    font-size 0.75rem
+    position relative
+    margin-right 0.5rem
+
+    &:after {
+        content: '/';
+        position: absolute;
+        right: -0.25rem;
+        left: auto;
+    }
+
+    &_active {
+        text-decoration none
+        color $mainBlack   
+
+        &:after {
+            display none
+        } 
+    }
+  }
+}

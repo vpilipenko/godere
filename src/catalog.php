@@ -17,14 +17,25 @@
 </head>
 <body>
 
-<!-- Header -->
-<? include 'components/header/header.php' ?>
-<!-- Header end -->
+<div class="container">
+	<!-- Header -->
+	<? include 'components/header/header.php' ?>
+	<!-- Header end -->
 
+	<!-- Breadcrumbs -->
+	<? include 'components/breadcrumbs/breadcrumbs.php' ?>
+	<!-- Breadcrumbs end -->
 
-<!-- Footer -->
-<? include 'components/footer/footer.php' ?>
-<!-- Footer end -->
+	<h2>Каталог товаров</h2>
+
+	<!-- Catalog -->
+	<? include 'components/catalog/catalog.php' ?>
+	<!-- Catalog end -->
+
+	<!-- Footer -->
+	<? include 'components/footer/footer.php' ?>
+	<!-- Footer end -->
+</div>
 
 <!-- JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
