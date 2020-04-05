@@ -53,6 +53,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/assets/img/fb.png": {
+		"ft": 32768,
+		"iS": 297,
+		"oA": 0,
+		"oAP": "/dist/assets/img/fb.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/assets/img/item1.png": {
 		"ft": 32768,
 		"iS": 13086,
@@ -157,6 +168,17 @@
 		"iS": 276,
 		"oA": 0,
 		"oAP": "/dist/assets/img/search_invert.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/vk.png": {
+		"ft": 32768,
+		"iS": 341,
+		"oA": 0,
+		"oAP": "/dist/assets/img/vk.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
