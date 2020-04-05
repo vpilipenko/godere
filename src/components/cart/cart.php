@@ -48,5 +48,6 @@
       <div class="godere-cart__price">3 240 ₽</div>
       <div class="godere-cart__close">×</div>
     </li>
-	</ul>
+  </ul>
+  <? include 'components/form/form.php' ?>
 </div>
