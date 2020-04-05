@@ -42,6 +42,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/assets/img/cart.png": {
+		"ft": 32768,
+		"iS": 3430,
+		"oA": 0,
+		"oAP": "/dist/assets/img/cart.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/assets/img/check.png": {
 		"ft": 32768,
 		"iS": 530,
@@ -579,6 +590,27 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/components/breadcrumbs/breadcrumbs-min.css",
+		"oF": 0,
+		"oS": 1,
+		"rrU": 1
+		},
+	"/src/components/cart/cart.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/components/cart/cart.php",
+		"oF": 0
+		},
+	"/src/components/cart/cart.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 1,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/components/cart/cart-min.css",
 		"oF": 0,
 		"oS": 1,
 		"rrU": 1
