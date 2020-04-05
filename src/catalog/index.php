@@ -17,11 +17,12 @@
 </head>
 <body>
 
+<!-- Header -->
+<? include 'components/header/header.php' ?>
+<!-- Header end -->
+
 <div class="container godere-container">
 	<div class="godere">
-		<!-- Header -->
-		<? include 'components/header/header.php' ?>
-		<!-- Header end -->
 
 		<!-- Breadcrumbs -->
 		<? include 'components/breadcrumbs/breadcrumbs.php' ?>

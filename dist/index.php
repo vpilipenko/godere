@@ -16,35 +16,15 @@
 </head>
 <body>
 
-<div class="container godere-container">
-	<div class="godere">
-		<!-- Main -->
-		<? include 'components/main/main.php' ?>
-		<!-- Main end-->
 
-		<h2>Каталог товаров</h2>
-
-		<!-- Tabs -->
-		<? include 'components/tabs/tabs.php' ?>
-		<!-- Tabs end -->
+<!-- Main -->
+<? $HEADER_DARK = false ?>
+<? $HEADER_ABSOLUTE = false ?>
+<? include 'components/header/header.php' ?>
+<!-- Main end-->
 
 
-		<!-- List -->
-		<? include 'components/list/list.php' ?>
-		<!-- List end -->
 
-		<h2>Хиты продаж</h2>
-
-		<? include 'components/list/list.php' ?>
-
-		<h2>Наши партнеры</h2>
-
-		<? include 'components/partners/partners.php' ?>
-	</div>
-	<!-- Footer -->
-	<? include 'components/footer/footer.php' ?>
-	<!-- Footer end -->
-</div>
 
 
 <!-- JavaScript -->

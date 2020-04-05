@@ -1,5 +1,4 @@
 <div class="godere-main">
-  <? include 'components/header/header.php' ?>
   <img src="/src/assets/img/main.png" alt="">
   <div class="godere-main__txt">
     <div class="godere-main__title">TIGER - BLACK LINE</div>

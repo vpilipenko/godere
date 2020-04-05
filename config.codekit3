@@ -536,12 +536,12 @@
 		"oAP": "/dist/cart.php",
 		"oF": 0
 		},
-	"/src/catalog.php": {
+	"/src/catalog/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dist/catalog.php",
+		"oAP": "/dist/catalog/index.php",
 		"oF": 0
 		},
 	"/src/checkout.php": {
