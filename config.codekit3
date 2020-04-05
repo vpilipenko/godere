@@ -53,6 +53,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/assets/img/delivery.png": {
+		"ft": 32768,
+		"iS": 247,
+		"oA": 0,
+		"oAP": "/dist/assets/img/delivery.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/assets/img/fb.png": {
 		"ft": 32768,
 		"iS": 297,
@@ -124,6 +135,17 @@
 		"iS": 66569,
 		"oA": 0,
 		"oAP": "/dist/assets/img/main.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/src/assets/img/page.png": {
+		"ft": 32768,
+		"iS": 26848,
+		"oA": 0,
+		"oAP": "/dist/assets/img/page.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -768,6 +790,27 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/components/menu/menu-min.css",
+		"oF": 0,
+		"oS": 1,
+		"rrU": 1
+		},
+	"/src/components/page/page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/components/page/page.php",
+		"oF": 0
+		},
+	"/src/components/page/page.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 1,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/components/page/page-min.css",
 		"oF": 0,
 		"oS": 1,
 		"rrU": 1

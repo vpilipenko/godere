@@ -17,21 +17,22 @@
 </head>
 <body>
 
-<div class="container">
-	<!-- Header -->
-	<? include 'components/header/header.php' ?>
-	<!-- Header end -->
+<div class="container godere-container">
+	<div class="godere">
+		<!-- Header -->
+		<? include 'components/header/header.php' ?>
+		<!-- Header end -->
 
-	<!-- Breadcrumbs -->
-	<? include 'components/breadcrumbs/breadcrumbs.php' ?>
-	<!-- Breadcrumbs end -->
+		<!-- Breadcrumbs -->
+		<? include 'components/breadcrumbs/breadcrumbs.php' ?>
+		<!-- Breadcrumbs end -->
 
-	<h2>Каталог товаров</h2>
+		<h2>Каталог товаров</h2>
 
-	<!-- Catalog -->
-	<? include 'components/catalog/catalog.php' ?>
-	<!-- Catalog end -->
-
+		<!-- Catalog -->
+		<? include 'components/catalog/catalog.php' ?>
+		<!-- Catalog end -->
+	</div>
 	<!-- Footer -->
 	<? include 'components/footer/footer.php' ?>
 	<!-- Footer end -->

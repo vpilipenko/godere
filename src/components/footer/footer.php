@@ -20,7 +20,7 @@
   <div class='godere-footer__col'>
     <div class="godere-footer__title">Партнерам</div>
     <a href="#" class="godere-footer__link">Начать сотрудничество</a>
-    <a href="#" class="godere-footer__link">Партрнерская программа</a>
+    <a href="#" class="godere-footer__link">Партнерская программа</a>
   </div>
   <div class='godere-footer__col'>
     <div class="godere-footer__title">Мы в соцсетях</div>
