@@ -31,7 +31,32 @@
 
 		<!-- Catalog -->
 		<div class="godere-catalog">
-          <? include '../components/filters/filters.php' ?>
+        <div class='godere-filters'>
+          <div class='godere-filters__title'>Цена</div>
+          <div class="godere-filters__price">
+            <input type="text">
+            <input type="text">
+            <div class="godere-filters__slider" id='priceSlider'></div>
+          </div>
+          <div class='godere-filters__title'>Бренд</div>
+          <div class="godere-filters__brand">
+            <input type="text">
+            <div class="godere-filters__checkbox">
+              <input type="checkbox" id="brand1" />
+              <label for="brand1">Anytime</label>
+            </div>
+            <div class="godere-filters__checkbox">
+              <input type="checkbox" id="brand2" />
+              <label for="brand2">Fun Factory</label>
+            </div>
+          </div>
+          
+          <div class='godere-filters__title'>Зарядное устройство</div>
+          <div class="godere-filters__checkbox">
+              <input type="checkbox" id="charge" />
+              <label for="charge">Зарядное устройство</label>
+            </div>
+        </div>
           <div class="godere-catalog__content">
             <div class="godere-catalog__select">
               <select name="" id="">
@@ -66,6 +91,7 @@
 
 <!-- JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.min.js"></script>
 <script src="/assets/js/main-min.js"></script>
 <!-- JavaScript end -->
 </body>
