@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="RU">
-<!-- Сделано в © Фромбокс / www.frombox.ru -->
 
 <head>
 	<meta charset="utf-8">
@@ -18,24 +17,48 @@
 <body>
 
 <!-- Header -->
-<? include 'components/header/header.php' ?>
+<? include '../components/header/header.php' ?>
 <!-- Header end -->
 
 <div class="container godere-container">
 	<div class="godere">
 
 		<!-- Breadcrumbs -->
-		<? include 'components/breadcrumbs/breadcrumbs.php' ?>
+		<? include '../components/breadcrumbs/breadcrumbs.php' ?>
 		<!-- Breadcrumbs end -->
 
-		<h2>Каталог товаров</h2>
+		<h2>Каталог товаров</h2>	
 
 		<!-- Catalog -->
-		<? include 'components/catalog/catalog.php' ?>
+		<div class="godere-catalog">
+          <? include '../components/filters/filters.php' ?>
+          <div class="godere-catalog__content">
+            <div class="godere-catalog__select">
+              <select name="" id="">
+                <option>Дешевые сверху</option>
+                <option>Дорогие сверху</option>
+              </select>
+            </div>
+
+			<div class="godere-catalog__list">
+				<? include '../components/item/item.php' ?>
+				<? include '../components/item/item.php' ?>
+				<? include '../components/item/item.php' ?>
+			</div>
+			<div class="godere-catalog__list">
+				<? include '../components/item/item.php' ?>
+				<? include '../components/item/item.php' ?>
+				<? include '../components/item/item.php' ?>
+			</div>
+
+          <? include '../components/list/list.php' ?>
+          <? include '../components/list/list.php' ?>
+        </div>
+    </div>
 		<!-- Catalog end -->
 	</div>
 	<!-- Footer -->
-	<? include 'components/footer/footer.php' ?>
+	<? include '../components/footer/footer.php' ?>
 	<!-- Footer end -->
 </div>
 

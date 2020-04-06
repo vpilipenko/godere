@@ -31,6 +31,17 @@
 		"oAP": "/dist/.gitignore",
 		"oF": 0
 		},
+	"/src/assets/img/banner.png": {
+		"ft": 32768,
+		"iS": 249647,
+		"oA": 0,
+		"oAP": "/dist/assets/img/banner.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/src/assets/img/basket_invert.png": {
 		"ft": 32768,
 		"iS": 292,
@@ -536,6 +547,32 @@
 		"oAP": "/dist/cart.php",
 		"oF": 0
 		},
+	"/src/cart.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 1,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/cart-min.css",
+		"oF": 0,
+		"oS": 1,
+		"rrU": 1
+		},
+	"/src/catalog/catalog.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 1,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/catalog/catalog-min.css",
+		"oF": 0,
+		"oS": 1,
+		"rrU": 1
+		},
 	"/src/catalog/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -551,27 +588,6 @@
 		"oA": 0,
 		"oAP": "/dist/checkout.php",
 		"oF": 0
-		},
-	"/src/components/basket/basket.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dist/components/basket/basket.php",
-		"oF": 0
-		},
-	"/src/components/basket/basket.styl": {
-		"aP": 1,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 1,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/dist/components/basket/basket-min.css",
-		"oF": 0,
-		"oS": 1,
-		"rrU": 1
 		},
 	"/src/components/breadcrumbs/breadcrumbs.php": {
 		"cB": 0,
@@ -590,48 +606,6 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/components/breadcrumbs/breadcrumbs-min.css",
-		"oF": 0,
-		"oS": 1,
-		"rrU": 1
-		},
-	"/src/components/cart/cart.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dist/components/cart/cart.php",
-		"oF": 0
-		},
-	"/src/components/cart/cart.styl": {
-		"aP": 1,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 1,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/dist/components/cart/cart-min.css",
-		"oF": 0,
-		"oS": 1,
-		"rrU": 1
-		},
-	"/src/components/catalog/catalog.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dist/components/catalog/catalog.php",
-		"oF": 0
-		},
-	"/src/components/catalog/catalog.styl": {
-		"aP": 1,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 1,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/dist/components/catalog/catalog-min.css",
 		"oF": 0,
 		"oS": 1,
 		"rrU": 1
@@ -752,38 +726,6 @@
 		"oS": 1,
 		"rrU": 1
 		},
-	"/src/components/list/list.js": {
-		"bF": 2,
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dist/components/list/list-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"/src/components/list/list.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dist/components/list/list.php",
-		"oF": 0
-		},
-	"/src/components/list/list.styl": {
-		"aP": 1,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 1,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/dist/components/list/list-min.css",
-		"oF": 0,
-		"oS": 1,
-		"rrU": 1
-		},
 	"/src/components/logo/logo.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -801,27 +743,6 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "/dist/components/logo/logo-min.css",
-		"oF": 0,
-		"oS": 1,
-		"rrU": 1
-		},
-	"/src/components/main/main.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dist/components/main/main.php",
-		"oF": 0
-		},
-	"/src/components/main/main.styl": {
-		"aP": 1,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 1,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/dist/components/main/main-min.css",
 		"oF": 0,
 		"oS": 1,
 		"rrU": 1
@@ -847,101 +768,6 @@
 		"oS": 1,
 		"rrU": 1
 		},
-	"/src/components/page/page.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dist/components/page/page.php",
-		"oF": 0
-		},
-	"/src/components/page/page.styl": {
-		"aP": 1,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 1,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/dist/components/page/page-min.css",
-		"oF": 0,
-		"oS": 1,
-		"rrU": 1
-		},
-	"/src/components/partners/partners.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dist/components/partners/partners.php",
-		"oF": 0
-		},
-	"/src/components/partners/partners.styl": {
-		"aP": 1,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 1,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/dist/components/partners/partners-min.css",
-		"oF": 0,
-		"oS": 1,
-		"rrU": 1
-		},
-	"/src/components/search/search.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dist/components/search/search.php",
-		"oF": 0
-		},
-	"/src/components/search/search.styl": {
-		"aP": 1,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 1,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/dist/components/search/search-min.css",
-		"oF": 0,
-		"oS": 1,
-		"rrU": 1
-		},
-	"/src/components/tabs/tabs.js": {
-		"bF": 2,
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dist/components/tabs/tabs-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"/src/components/tabs/tabs.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dist/components/tabs/tabs.php",
-		"oF": 0
-		},
-	"/src/components/tabs/tabs.styl": {
-		"aP": 1,
-		"bl": 0,
-		"dS": 0,
-		"ft": 8,
-		"iC": 1,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/dist/components/tabs/tabs-min.css",
-		"oF": 0,
-		"oS": 1,
-		"rrU": 1
-		},
 	"/src/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -950,13 +776,39 @@
 		"oAP": "/dist/index.php",
 		"oF": 0
 		},
-	"/src/page.php": {
+	"/src/index.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 1,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/index-min.css",
+		"oF": 0,
+		"oS": 1,
+		"rrU": 1
+		},
+	"/src/page/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dist/page.php",
+		"oAP": "/dist/page/index.php",
 		"oF": 0
+		},
+	"/src/page/page.styl": {
+		"aP": 1,
+		"bl": 0,
+		"dS": 0,
+		"ft": 8,
+		"iC": 1,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "/dist/page/page-min.css",
+		"oF": 0,
+		"oS": 1,
+		"rrU": 1
 		},
 	"/src/success.php": {
 		"cB": 0,

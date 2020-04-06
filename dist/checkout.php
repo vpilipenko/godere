@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="RU">
-<!-- Сделано в © Фромбокс / www.frombox.ru -->
 
 <head>
 	<meta charset="utf-8">
