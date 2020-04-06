@@ -1,5 +1,27 @@
-const $header = document.getElementsByTagName('header')[0]
+const $cabinetNavItem = $("#cabinetNavItem")
+const $cabinetPane = $("#cabinetPane")
+const $catalogNavItem = $("#catalogNavItem")
+const $catalogPane = $("#catalogPane")
+const left = $cabinetNavItem.position().left
 
-$header.addEventListener('click', () => {
-  console.log('click on header')
-})
+$cabinetNavItem.hover(
+  () => {
+    $cabinetPane.css({ left }).addClass('active')
+  },
+  () => { $cabinetPane.removeClass('active') }
+);
+
+$cabinetPane.hover(
+  () => { $cabinetPane.addClass('active') },
+  () => { $cabinetPane.removeClass('active') }
+);
+
+$catalogNavItem.hover(
+  () => { $catalogPane.addClass('active') },
+  () => { $catalogPane.removeClass('active') }
+);
+
+$catalogPane.hover(
+  () => { $catalogPane.addClass('active') },
+  () => { $catalogPane.removeClass('active') }
+);
