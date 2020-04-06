@@ -49,7 +49,7 @@
 		"oAP": "/dist/assets/img/basket_invert.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -71,7 +71,7 @@
 		"oAP": "/dist/assets/img/check.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -93,7 +93,7 @@
 		"oAP": "/dist/assets/img/fb.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -104,7 +104,7 @@
 		"oAP": "/dist/assets/img/item1.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -115,7 +115,7 @@
 		"oAP": "/dist/assets/img/item2.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -126,7 +126,7 @@
 		"oAP": "/dist/assets/img/item3.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -137,7 +137,7 @@
 		"oAP": "/dist/assets/img/item4.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -148,7 +148,7 @@
 		"oAP": "/dist/assets/img/logo_invert.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -181,7 +181,7 @@
 		"oAP": "/dist/assets/img/partner1.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -192,7 +192,7 @@
 		"oAP": "/dist/assets/img/partner2.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -203,7 +203,7 @@
 		"oAP": "/dist/assets/img/partner3.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -214,7 +214,7 @@
 		"oAP": "/dist/assets/img/search_invert.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -225,7 +225,7 @@
 		"oAP": "/dist/assets/img/vk.png",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -539,15 +539,7 @@
 		"oS": 1,
 		"rrU": 1
 		},
-	"/src/cart.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dist/cart.php",
-		"oF": 0
-		},
-	"/src/cart.styl": {
+	"/src/cart/cart.styl": {
 		"aP": 1,
 		"bl": 0,
 		"dS": 0,
@@ -555,10 +547,18 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/dist/cart-min.css",
+		"oAP": "/dist/cart/cart-min.css",
 		"oF": 0,
 		"oS": 1,
 		"rrU": 1
+		},
+	"/src/cart/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/cart/index.php",
+		"oF": 0
 		},
 	"/src/catalog/catalog.styl": {
 		"aP": 1,
@@ -855,7 +855,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-koamaru",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 607721661.68480098
+	"lastBuiltDate": 607895191.32919598
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

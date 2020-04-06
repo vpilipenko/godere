@@ -15,14 +15,14 @@
 	<link rel="stylesheet" href="/assets/styles/main-min.css">
 </head>
 <body>
-<div class="container godere-container">
+<div class="godere-container">
 	<div class="godere">
 		<!-- Header -->
-		<? include 'components/header/header.php' ?>
+		<? include '../components/header/header.php' ?>
 		<!-- Header end -->
 
 		<!-- Breadcrumbs -->
-		<? include 'components/breadcrumbs/breadcrumbs.php' ?>
+		<? include '../components/breadcrumbs/breadcrumbs.php' ?>
 		<!-- Breadcrumbs end -->
 
 		<h2>Корзина</h2>
@@ -79,12 +79,12 @@
 				<div class="godere-cart__close">×</div>
 				</li>
 			</ul>
-		<? include 'components/form/form.php' ?>
+		<? include '../components/form/form.php' ?>
 		</div>
 		<!-- Cart end -->
 	</div>
 	<!-- Footer -->
-	<? include 'components/footer/footer.php' ?>
+	<? include '../components/footer/footer.php' ?>
 	<!-- Footer end -->
 </div>
 

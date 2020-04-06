@@ -1,6 +1,6 @@
 <footer class='godere-footer'>
   <div class='godere-footer__col'>
-    <? include 'components/logo/logo.php' ?>
+  <? include 'components/logo/logo.php' ?>
     <div class='godere-footer__copy'>2020 ООО «Годере»</div>
     <a class='godere-footer__user-agreement' href='#'>
       Пользовательское соглашение
