@@ -17,8 +17,8 @@
 <body>
 
 
-<? $HEADER_DARK = false ?>
-<? $HEADER_ABSOLUTE = false ?>
+<? $HEADER_DARK = true ?>
+<? $HEADER_ABSOLUTE = true ?>
 
 <div class="container">
 	<? include 'components/header/header.php' ?>

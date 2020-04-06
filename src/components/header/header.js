@@ -6,22 +6,22 @@ const left = $cabinetNavItem.position().left
 
 $cabinetNavItem.hover(
   () => {
-    $cabinetPane.css({ left }).addClass('active')
+    $cabinetPane.css({ left }).addClass('godere-nav__pane_active')
   },
-  () => { $cabinetPane.removeClass('active') }
+  () => { $cabinetPane.removeClass('godere-nav__pane_active') }
 );
 
 $cabinetPane.hover(
-  () => { $cabinetPane.addClass('active') },
-  () => { $cabinetPane.removeClass('active') }
+  () => { $cabinetPane.addClass('godere-nav__pane_active') },
+  () => { $cabinetPane.removeClass('godere-nav__pane_active') }
 );
 
 $catalogNavItem.hover(
-  () => { $catalogPane.addClass('active') },
-  () => { $catalogPane.removeClass('active') }
+  () => { $catalogPane.addClass('godere-nav__pane_active') },
+  () => { $catalogPane.removeClass('godere-nav__pane_active') }
 );
 
 $catalogPane.hover(
-  () => { $catalogPane.addClass('active') },
-  () => { $catalogPane.removeClass('active') }
+  () => { $catalogPane.addClass('godere-nav__pane_active') },
+  () => { $catalogPane.removeClass('godere-nav__pane_active') }
 );
