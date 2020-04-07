@@ -1,0 +1,95 @@
+.godere-checkout {
+  display flex
+  justify-content space-between
+
+  &__content {
+    flex-basis: 50%;
+  }
+
+  &__title {
+    font-weight $bold
+    margin-bottom 1rem
+  }
+
+  &__item {
+    input[type='text'] {
+      border: 1px solid $secondaryGrey;
+      box-sizing: border-box;
+      border-radius: 8px;
+      margin: 0 0 1rem;
+      padding: .5rem 1rem;
+      width: 100%;
+      outline none
+    }
+
+    select {
+      width: 200px;
+      height: 2rem;
+      border: 1px solid $secondaryGrey;
+      background: mainWhite;
+      margin-bottom: 1rem;
+    }
+
+    textarea {
+      border: 1px solid $secondaryGrey;
+      box-sizing: border-box;
+      border-radius: 8px;
+      margin: 0 0 1rem;
+      padding: .5rem 1rem;
+      width: 100%;
+      resize none
+      outline none
+    }
+  }
+
+  &__row {
+    display flex
+    justify-content space-between
+
+    input[type='text'] {
+      flex-basis 48%
+      max-width: 48%
+    }
+  }
+
+  &__radio {
+    margin-bottom: 0.5rem;
+
+    input[type=radio] {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+
+      &:checked ~ label {
+        &:before {
+          background: url(../../../src/assets/img/radio_active.svg) no-repeat;
+          background-size: contain;
+          background-color $mainRed
+          border-radius 1rem
+        }
+      }
+    }
+
+    label {
+      position relative
+      padding-left: 1.5rem;
+      cursor pointer
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 1rem;
+        height: 1rem;
+        background: url(../../../src/assets/img/radio.svg) no-repeat;
+        background-size: contain;
+        background-color $secondaryGrey
+        border-radius 1rem
+      }
+      
+    }
+  }
+}

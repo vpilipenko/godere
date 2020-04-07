@@ -75,6 +75,26 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/assets/img/checkbox.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/img/checkbox.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/src/assets/img/checkbox_active.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/img/checkbox_active.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/src/assets/img/delivery.png": {
 		"ft": 32768,
 		"iS": 247,
@@ -206,6 +226,26 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"/src/assets/img/radio.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/img/radio.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/src/assets/img/radio_active.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/img/radio_active.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/src/assets/img/search_invert.png": {
 		"ft": 32768,
@@ -592,15 +632,7 @@
 		"oAP": "/dist/catalog/index.php",
 		"oF": 0
 		},
-	"/src/checkout.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/dist/checkout.php",
-		"oF": 0
-		},
-	"/src/checkout.styl": {
+	"/src/checkout/checkout.styl": {
 		"aP": 1,
 		"bl": 0,
 		"dS": 0,
@@ -608,10 +640,18 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/dist/checkout-min.css",
+		"oAP": "/dist/checkout/checkout-min.css",
 		"oF": 0,
 		"oS": 1,
 		"rrU": 1
+		},
+	"/src/checkout/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/checkout/index.php",
+		"oF": 0
 		},
 	"/src/components/breadcrumbs/breadcrumbs.php": {
 		"cB": 0,
@@ -800,6 +840,17 @@
 		"oAP": "/dist/page/index.php",
 		"oF": 0
 		},
+	"/src/page/page.js": {
+		"bF": 2,
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dist/page/page-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"/src/page/page.styl": {
 		"aP": 1,
 		"bl": 0,
@@ -845,7 +896,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-koamaru",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 607965343.15772605
+	"lastBuiltDate": 607970640.18865705
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

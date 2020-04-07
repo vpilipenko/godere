@@ -13,7 +13,8 @@
       select {
         width: 200px;
         height: 2rem
-        border: 1px solid $mainGrey;
+        border: 1px solid $secondaryGrey;
+        background $mainWhite
       }
     }
 
@@ -73,7 +74,9 @@
 
         &:checked ~ label {
           &:before {
-            background-color: $mainRed;
+            background: url(../../../src/assets/img/checkbox_active.svg) no-repeat;
+            background-size: contain;
+            background-color $mainRed
           }
         }
       }
@@ -88,9 +91,11 @@
           position: absolute;
           top: 0;
           left: 0;
-          height: 1rem;
           width: 1rem;
-          background-color: $secondaryGrey;
+          height: 1rem;
+          background: url(../../../src/assets/img/checkbox.svg) no-repeat;
+          background-size: contain;
+          background-color $secondaryGrey
         }
         
       }

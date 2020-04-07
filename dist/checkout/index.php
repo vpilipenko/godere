@@ -15,47 +15,70 @@
 	<link rel="stylesheet" href="/assets/styles/main-min.css">
 </head>
 <body>
-<div class="container godere-container">
+<div class="godere-container">
+	<!-- Godere -->
 	<div class="godere">
 		<!-- Header -->
-		<? include 'components/header/header.php' ?>
+		<? include '../components/header/header.php' ?>
 		<!-- Header end -->
 
 		<!-- Breadcrumbs -->
-		<? include 'components/breadcrumbs/breadcrumbs.php' ?>
+		<? include '../components/breadcrumbs/breadcrumbs.php' ?>
 		<!-- Breadcrumbs end -->
 
 		<h2>Корзина</h2>
 		<!-- Checkout -->
 		<div class="godere-checkout">
-			
 			<div class="godere-checkout__content">
 				<div class="godere-checkout__item">
 					<div class="godere-checkout__title">Контактная информация</div>
-					<input type="text"><input type="text">
+					<div class="godere-checkout__row">
+						<input type="text" placeholder='Имя'>
+						<input type="text" placeholder='Телефон'>
+					</div>
 				</div>
 				<div class="godere-checkout__item">
 					<div class="godere-checkout__title">Время доставки</div>
-					<select name="" id=""></select>
+					<select name="" id="">
+						<option>С 10:00 до 20:00</option>
+						<option>С 20:00 до 10:00</option>
+					</select>
 				</div>
 				<div class="godere-checkout__item">
 					<div class="godere-checkout__title">Адрес</div>
-					<input type="text"><br>
-					<input type="text"><input type="text"><br>
-					<input type="text"><input type="text"><br>
+					<input type="text" placeholder='Адрес'>
+					<div class="godere-checkout__row">
+						<input type="text" placeholder='Город'>
+						<input type="text" placeholder='Индекс'>
+					</div>
+					<div class="godere-checkout__row">
+						<input type="text" placeholder='Квартира'>
+						<input type="text" placeholder='Этаж'>
+					</div>
 					<textarea name="" id="" cols="30" rows="10"></textarea>
 				</div>
 				<div class="godere-checkout__item">
 					<div class="godere-checkout__title">Способ оплаты</div>
-					<input type="radio">Наличными курьеру
-					<input type="radio">Картой
+					<div class="godere-checkout__radio">
+						<span>
+							<input type="radio" id='radio1' name="pay">
+							<label for="radio1">Наличными курьеру</label>
+						</span>
+						<span>
+							<input type="radio" id='radio2' name="pay">
+							<label for="radio2">Картой</label>
+						</span>
+					</div>
+
 				</div>
 			</div>
-			<? include 'components/form/form.php' ?>
+			<? include '../components/form/form.php' ?>
 		</div>
 		<!-- Checkout end -->
+	</div>
+	<!-- Godere end -->
 	<!-- Footer -->
-	<? include 'components/footer/footer.php' ?>
+	<? include '../components/footer/footer.php' ?>
 	<!-- Footer end -->
 </div>
 
