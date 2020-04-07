@@ -171,6 +171,7 @@
 
 <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
 <script src="/assets/js/main-min.js"></script>
+<script src="/assets/js/main-min.js"></script>
 
 <script>
   const mySwiper = new Swiper ('.swiper-container', {

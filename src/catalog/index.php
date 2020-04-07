@@ -12,7 +12,9 @@
 	<!-- Fav -->
 	<!-- Fav end -->
 	<title>Godere - главная</title>
+  <link rel="stylesheet" href="/assets/styles/nouislider.min.css">
 	<link rel="stylesheet" href="/assets/styles/main-min.css">
+  
 </head>
 <body>
 
@@ -91,7 +93,7 @@
 
 <!-- JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.min.js"></script>
+<script src="/assets/js/nouislider.min.js"></script>
 <script src="/assets/js/main-min.js"></script>
 
 <script>

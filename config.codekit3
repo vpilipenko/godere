@@ -280,6 +280,17 @@
 		"sC": 3,
 		"tS": 1
 		},
+	"/src/assets/js/nouislider.min.js": {
+		"bF": 2,
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/dist/assets/js/nouislider.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"/src/assets/styles/fonts/fonts.css": {
 		"aP": 1,
 		"bl": 0,
@@ -563,6 +574,16 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dist/assets/styles/normalize-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/src/assets/styles/nouislider.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/dist/assets/styles/nouislider.min-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -896,7 +917,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-koamaru",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 607972858.27623606
+	"lastBuiltDate": 607974155.79353702
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
