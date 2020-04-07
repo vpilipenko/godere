@@ -164,6 +164,8 @@
 	<!-- Footer end -->
 </div>
 
+<? include '../components/preview/preview.php' ?>
+
 <!-- JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
@@ -171,20 +173,31 @@
 <script src="/assets/js/main-min.js"></script>
 
 <script>
-  var mySwiper = new Swiper ('.swiper-container', {
-    // Optional parameters
+  const mySwiper = new Swiper ('.swiper-container', {
     loop: true,
-
-    // If we need pagination
     pagination: {
       el: '.swiper-pagination',
     },
-
-    // Navigation arrows
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+  })
+
+  const $button = $('.godere-page__button')
+  const $preview = $('.godere-preview')
+  const $close = $('.godere-preview__close')
+
+  $button.click((e) => {
+    e.preventDefault()
+
+    $preview.addClass('godere-preview_active')
+  })
+
+  $close.click((e) => {
+    e.preventDefault()
+
+    $preview.removeClass('godere-preview_active')
   })
   </script>
 <!-- JavaScript end -->

@@ -790,15 +790,15 @@
 		"oS": 1,
 		"rrU": 1
 		},
-	"/src/components/menu/menu.php": {
+	"/src/components/preview/preview.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dist/components/menu/menu.php",
+		"oAP": "/dist/components/preview/preview.php",
 		"oF": 0
 		},
-	"/src/components/menu/menu.styl": {
+	"/src/components/preview/preview.styl": {
 		"aP": 1,
 		"bl": 0,
 		"dS": 0,
@@ -806,7 +806,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/dist/components/menu/menu-min.css",
+		"oAP": "/dist/components/preview/preview-min.css",
 		"oF": 0,
 		"oS": 1,
 		"rrU": 1
@@ -896,7 +896,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-koamaru",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 607970640.18865705
+	"lastBuiltDate": 607972858.27623606
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
