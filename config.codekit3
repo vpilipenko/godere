@@ -813,15 +813,15 @@
 		"oS": 1,
 		"rrU": 1
 		},
-	"/src/success.php": {
+	"/src/success/index.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/dist/success.php",
+		"oAP": "/dist/success/index.php",
 		"oF": 0
 		},
-	"/src/success.styl": {
+	"/src/success/success.styl": {
 		"aP": 1,
 		"bl": 0,
 		"dS": 0,
@@ -829,7 +829,7 @@
 		"iC": 1,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "/dist/success-min.css",
+		"oAP": "/dist/success/success-min.css",
 		"oF": 0,
 		"oS": 1,
 		"rrU": 1
@@ -845,7 +845,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-koamaru",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 607899152.02964103
+	"lastBuiltDate": 607965343.15772605
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

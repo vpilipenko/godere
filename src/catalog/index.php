@@ -93,6 +93,19 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.3/nouislider.min.js"></script>
 <script src="/assets/js/main-min.js"></script>
+
+<script>
+const slider = document.getElementById('priceSlider');
+
+noUiSlider.create(slider, {
+  start: [20, 80],
+  connect: true,
+  range: {
+    'min': 0,
+    'max': 100
+  }
+});
+</script>
 <!-- JavaScript end -->
 </body>
 

@@ -1,0 +1,80 @@
+.godere {
+  &-success {
+    display flex
+    justify-content space-between
+
+    &__content {
+        flex-basis: 100%;
+    }
+
+    &__number {
+        font-size 1.25rem
+        font-weight $bold
+    }
+
+    &__pay {
+        margin-bottom 1rem
+    }
+
+    &__item {
+        margin-bottom 1rem
+    }
+
+    &__title {
+        font-weight $bold
+    }
+  }
+
+  &-progress {
+    display: flex;
+    margin: 3rem;
+
+    &__item {
+      position relative
+      width: 150px;
+      height: 5px;
+      background: $secondaryGrey;
+
+      &:after {
+        content: '';
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        position: absolute;
+        bottom: -7.5px;
+        right: -8px;
+        background: $secondaryGrey;
+        z-index: 100;
+      }
+
+      &_complete {
+        background: $secondaryRed;
+        
+        &:after {
+          background: $secondaryRed;
+        }
+
+        &:first-child {
+
+          &:before {
+            content: '';
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            position: absolute;
+            bottom: -7.5px;
+            left: -8px;
+            background: $secondaryRed;
+          } 
+        }
+      }
+    }
+
+    &__text {
+      position: absolute;
+      top: -1.5rem;
+      transform: translateX(-50%);
+      font-size: 0.75rem;
+    }
+  }
+}

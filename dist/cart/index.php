@@ -16,6 +16,7 @@
 </head>
 <body>
 <div class="godere-container">
+	<!-- Godere -->
 	<div class="godere">
 		<!-- Header -->
 		<? include '../components/header/header.php' ?>
@@ -83,6 +84,8 @@
 		</div>
 		<!-- Cart end -->
 	</div>
+	<!-- Godere end -->
+	
 	<!-- Footer -->
 	<? include '../components/footer/footer.php' ?>
 	<!-- Footer end -->
