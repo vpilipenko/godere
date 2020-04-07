@@ -1,4 +1,4 @@
-
+import noUiSlider from 'no-ui-slider';
 
 const slider = document.getElementById('priceSlider');
 
@@ -10,5 +10,3 @@ noUiSlider.create(slider, {
     'max': 100
   }
 });
-
-

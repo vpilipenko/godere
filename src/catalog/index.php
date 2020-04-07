@@ -93,20 +93,10 @@
 
 <!-- JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="/assets/js/nouislider.min.js"></script>
 <script src="/assets/js/main-min.js"></script>
 
 <script>
-const slider = document.getElementById('priceSlider');
 
-noUiSlider.create(slider, {
-  start: [20, 80],
-  connect: true,
-  range: {
-    'min': 0,
-    'max': 100
-  }
-});
 </script>
 <!-- JavaScript end -->
 </body>

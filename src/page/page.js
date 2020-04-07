@@ -1,17 +1,28 @@
-console.log('page')
+import Swiper from 'swiper'
 
-// var mySwiper = new Swiper('.swiper-container', {
-//   // Optional parameters
-//   loop: true,
+const mySwiper = new Swiper ('.swiper-container', {
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+})
 
-//   // If we need pagination
-//   pagination: {
-//     el: '.swiper-pagination',
-//   },
+const $button = $('.godere-page__button')
+const $preview = $('.godere-preview')
+const $close = $('.godere-preview__close')
 
-//   // Navigation arrows
-//   navigation: {
-//     nextEl: '.swiper-button-next',
-//     prevEl: '.swiper-button-prev',
-//   },
-// })
+$button.click((e) => {
+  e.preventDefault()
+
+  $preview.addClass('godere-preview_active')
+})
+
+$close.click((e) => {
+  e.preventDefault()
+
+  $preview.removeClass('godere-preview_active')
+})

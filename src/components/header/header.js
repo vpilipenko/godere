@@ -28,5 +28,5 @@ $catalogPane.hover(
 );
 
 $hamburger.click(
-  () => { $hamburger.toggleClass('godere-header__hamburger_active') },
+  () => { $hamburger.toggleClass('godere-header__hamburger_active') }
 )

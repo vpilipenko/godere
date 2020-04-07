@@ -9,16 +9,54 @@
 	],
 "creatorBuild": "31934",
 "files": {
-	"/dist": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/dist/dist",
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dist/.gitignore",
 		"oF": 0
+		},
+	"/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/dist/node_modules",
+		"oF": 0
+		},
+	"/node_modules/ssr-window/dist/ssr-window.esm.js": {
+		"bF": 2,
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dist/node_modules/ssr-window/dist/ssr-window.esm-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
+	"/node_modules/swiper/js/swiper.esm.bundle.js": {
+		"bF": 2,
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dist/node_modules/swiper/js/swiper.esm.bundle-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
 		},
 	"/package-lock.json": {
 		"ft": 524288,
 		"oA": 1,
 		"oAP": "/dist/package-lock-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/dist/package-min.json",
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
@@ -78,18 +116,28 @@
 	"/src/assets/img/checkbox.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/dist/assets/img/checkbox.svg",
-		"oF": 0,
-		"opt": 0,
+		"oF": 1,
+		"opt": 1,
 		"plM": 52780316221407,
 		"prP": 0
 		},
 	"/src/assets/img/checkbox_active.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/dist/assets/img/checkbox_active.svg",
+		"oF": 1,
+		"opt": 1,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/src/assets/img/close.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/img/close.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -276,17 +324,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/dist/assets/js/main-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 1
-		},
-	"/src/assets/js/nouislider.min.js": {
-		"bF": 2,
-		"ft": 64,
-		"ma": 1,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/dist/assets/js/nouislider.min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -626,7 +663,7 @@
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dist/catalog/catalog-min.js",
 		"oF": 0,
 		"sC": 3,
@@ -742,7 +779,7 @@
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dist/components/header/header-min.js",
 		"oF": 0,
 		"sC": 3,
@@ -866,7 +903,7 @@
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dist/page/page-min.js",
 		"oF": 0,
 		"sC": 3,
@@ -917,7 +954,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-koamaru",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 607974155.79353702
+	"lastBuiltDate": 607982789.55873203
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1355,7 +1392,7 @@
 	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
-	"esLintEnvironmentsMask": 1,
+	"esLintEnvironmentsMask": 8193,
 	"esLintRules": {
 		"accessor-pairs": {
 			"active": 0,
@@ -2396,7 +2433,7 @@
 		},
 	"esLintSourceType": 0,
 	"externalServerAddress": "http://godere:8888/",
-	"gitIgnoreBuildFolder": 1,
+	"gitIgnoreBuildFolder": 0,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
