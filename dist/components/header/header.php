@@ -1,7 +1,7 @@
 <header class='godere-header 
 <? if ($HEADER_INVERT === true) { echo 'godere-header_invert'; }; ?> 
 <? if ($HEADER_ABSOLUTE === true) { echo 'godere-header_absolute'; }; ?>'>
-    <? include 'components/logo/logo.php' ?>
+    <? include $_SERVER['DOCUMENT_ROOT'] . '/components/logo/logo.php' ?>
 
     <nav class='godere-nav'>
       <div class='godere-nav__item' id='catalogNavItem'>Каталог</div>
