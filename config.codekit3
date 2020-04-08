@@ -23,6 +23,17 @@
 		"oAP": "/dist/node_modules",
 		"oF": 0
 		},
+	"/node_modules/nouislider/distribute/nouislider.js": {
+		"bF": 2,
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dist/node_modules/nouislider/distribute/nouislider-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"/node_modules/ssr-window/dist/ssr-window.esm.js": {
 		"bF": 2,
 		"ft": 64,
@@ -318,7 +329,7 @@
 		"q": 100
 		},
 	"/src/assets/js/main.js": {
-		"bF": 2,
+		"bF": 6,
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
@@ -954,7 +965,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-koamaru",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 607982789.55873203
+	"lastBuiltDate": 608054810.11182797
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1455,7 +1466,7 @@
 			"optionString": "{'exceptMethods': []}"
 			},
 		"comma-dangle": {
-			"active": 1,
+			"active": 0,
 			"optionString": "'never'"
 			},
 		"comma-spacing": {
@@ -2431,7 +2442,7 @@
 			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
 			}
 		},
-	"esLintSourceType": 0,
+	"esLintSourceType": 1,
 	"externalServerAddress": "http://godere:8888/",
 	"gitIgnoreBuildFolder": 0,
 	"hideConfigFile": 0,

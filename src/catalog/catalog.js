@@ -1,4 +1,4 @@
-import noUiSlider from 'no-ui-slider';
+import noUiSlider from 'nouislider'
 
 const slider = document.getElementById('priceSlider');
 
