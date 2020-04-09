@@ -36,10 +36,10 @@
         <div class='godere-filters'>
           <div class='godere-filters__title'>Цена</div>
           <div class="godere-filters__price">
-            <input type="text">
-            <input type="text">
-            <div class="godere-filters__slider" id='priceSlider'></div>
+            <input type="number" min="0" max="10000" step="1" id="priceMin">
+            <input type="number" min="0" max="10000" step="1" id="priceMax">
           </div>
+          <div class="godere-filters__slider" id='priceSlider'></div>
           <div class='godere-filters__title'>Бренд</div>
           <div class="godere-filters__brand">
             <input type="text">

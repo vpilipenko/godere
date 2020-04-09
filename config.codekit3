@@ -630,7 +630,7 @@
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dist/assets/styles/nouislider.min-min.css",
 		"oF": 0,
 		"oS": 3
@@ -965,7 +965,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-koamaru",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 608056875.87208796
+	"lastBuiltDate": 608118689.21483898
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
