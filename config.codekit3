@@ -180,6 +180,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/src/assets/img/filter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/img/filter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/src/assets/img/item1.png": {
 		"ft": 32768,
 		"iS": 13086,

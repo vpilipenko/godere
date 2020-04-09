@@ -61,7 +61,7 @@
 					<div class="godere-checkout__title">Способ оплаты</div>
 					<div class="godere-checkout__radio">
 						<span>
-							<input type="radio" id='radio1' name="pay">
+							<input type="radio" checked id='radio1' name="pay">
 							<label for="radio1">Наличными курьеру</label>
 						</span>
 						<span>
