@@ -17,6 +17,12 @@
 		"oAP": "/dist/.gitignore",
 		"oF": 0
 		},
+	"/dist": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/dist/dist",
+		"oF": 0
+		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
@@ -113,16 +119,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/src/assets/img/check.png": {
-		"ft": 32768,
-		"iS": 530,
-		"oA": 0,
-		"oAP": "/dist/assets/img/check.png",
+	"/src/assets/img/check.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/img/check.svg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/src/assets/img/checkbox.svg": {
 		"ft": 2097152,
@@ -154,16 +159,15 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/src/assets/img/delivery.png": {
-		"ft": 32768,
-		"iS": 247,
-		"oA": 0,
-		"oAP": "/dist/assets/img/delivery.png",
+	"/src/assets/img/delivery.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/img/delivery.svg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/src/assets/img/fb.png": {
 		"ft": 32768,
@@ -790,7 +794,7 @@
 		"ft": 64,
 		"ma": 1,
 		"mi": 1,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dist/components/header/header-min.js",
 		"oF": 0,
 		"sC": 3,
@@ -965,7 +969,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-koamaru",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 608118689.21483898
+	"lastBuiltDate": 608124441.608024
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

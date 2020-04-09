@@ -1,4 +1,4 @@
-<div class='godere-item'>
+<a href='/page' class='godere-item'>
   <div class="godere-item__label">NEW</div>
   <img class="godere-item__img" src="/src/assets/img/item1.png" alt="item1">
   <div class="godere-item__title">Двойной вибратор LADY BI</div>
@@ -10,5 +10,5 @@
     <div class="godere-item__price">3 240 ₽</div>
     <div class="godere-item__status">Есть в наличии</div>
     </div>
-    <a href="#" class="godere-item__button">Купить</a>
-</div>
+    <div class="godere-item__button">Купить</div>
+</a>

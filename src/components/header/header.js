@@ -5,6 +5,8 @@ const $catalogPane = $("#catalogPane")
 const left = $cabinetNavItem.position().left
 const $hamburger = $("#hamburger")
 
+console.log('header.js');
+
 $cabinetNavItem.hover(
   () => {
     $cabinetPane.css({ left }).addClass('godere-nav__pane_active')

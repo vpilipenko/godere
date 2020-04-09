@@ -1,6 +1,6 @@
 import Swiper from 'swiper'
 
-new Swiper ('.swiper-container', {
+new Swiper('.swiper-container', {
   loop: true,
   pagination: {
     el: '.swiper-pagination',

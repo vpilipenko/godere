@@ -33,27 +33,30 @@
 			<div class="godere-page__row">
         <div class="godere-page__col">
           <div class="godere-page__sale">SALE</div>
-          <div class="godere-page__slider">
-            <div class="swiper-container">
+          <div class="godere-swiper">
+            <div class="godere-swiper__container swiper-container">
             <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
+                <div class="godere-swiper__wrapper swiper-wrapper">
                 <!-- Slides -->
-                  <div class="swiper-slide">
-                    <img class="godere-item__img" src="/src/assets/img/page.png" alt="page">
+                  <div class="godere-swiper__slide swiper-slide">
+                    <img class="godere-swiper__img godere-item__img" 
+                      src="/src/assets/img/page.png" alt="page">
+                  </div>
+                  <div class="godere-swiper__slide swiper-slide">
+                    <img class="godere-swiper__img godere-item__img" 
+                      src="/src/assets/img/page.png" alt="page">
                   </div>
                   <div class="swiper-slide">
-                    <img class="godere-item__img" src="/src/assets/img/page.png" alt="page">
-                  </div>
-                  <div class="swiper-slide">
-                    <img class="godere-item__img" src="/src/assets/img/page.png" alt="page">
+                    <img class="godere-swiper__img godere-item__img" 
+                      src="/src/assets/img/page.png" alt="page">
                   </div>
                 </div>
                 <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
+                <div class="godere-swiper__pagination swiper-pagination"></div>
 
                 <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                <div class="godere-swiper__button swiper-button-prev">‹</div>
+                <div class="godere-swiper__button swiper-button-next">›</div>
             </div>
           </div>
         </div>
