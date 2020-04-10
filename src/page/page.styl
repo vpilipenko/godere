@@ -161,3 +161,38 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .godere {
+    &-page {
+      &__row {
+        flex-direction: column;
+      }
+
+      &__col {
+        flex-basis: 100%;
+        max-width: 100%;
+        margin-bottom 1rem
+      }
+
+      &__code, &__vendor {
+        margin-bottom 1rem
+      }
+
+      &__status {
+        width: fit-content;
+        margin-left: 0;
+      }
+
+      &__button {
+        text-align center
+      }
+    }
+
+    &-swiper {
+      &__img {
+        max-width 100%
+      }
+    }
+  }
+}

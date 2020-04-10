@@ -39,15 +39,15 @@
                 <div class="godere-swiper__wrapper swiper-wrapper">
                 <!-- Slides -->
                   <div class="godere-swiper__slide swiper-slide">
-                    <img class="godere-swiper__img godere-item__img" 
+                    <img class="godere-swiper__img" 
                       src="/src/assets/img/page.png" alt="page">
                   </div>
                   <div class="godere-swiper__slide swiper-slide">
-                    <img class="godere-swiper__img godere-item__img" 
+                    <img class="godere-swiper__img" 
                       src="/src/assets/img/page.png" alt="page">
                   </div>
                   <div class="swiper-slide">
-                    <img class="godere-swiper__img godere-item__img" 
+                    <img class="godere-swiper__img" 
                       src="/src/assets/img/page.png" alt="page">
                   </div>
                 </div>
