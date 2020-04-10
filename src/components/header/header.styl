@@ -2,32 +2,31 @@
   display: flex;
   justify-content: space-between;
 
-  svg path {
-    fill $mainBlack
-  }
-
-  &_invert {
-    color $mainWhite
-    
-    svg path {
-      fill $mainWhite
-    }
-  }
-
   &_absolute {
     position absolute
     left 0
     top 0
     width 100%
     z-index 1
+  }
 
-    .godere-nav__item {
-      color $mainWhite
+  &__search, &__cart {
+    position relative
+  }
 
-      &:hover {
-        color $mainWhite
-      }
-    }
+  &__count {
+    position absolute
+    bottom: 0.5rem;
+    right 0
+    width 1rem
+    height 1rem
+    text-align center
+    line-height 1rem
+    background $secondaryRed
+    color $mainWhite
+    font-size 0.5rem
+    text-decoration none
+    border-radius 1rem
   }
 }
 
@@ -58,8 +57,35 @@
         align-items: center;
       }
 
+      &__count {
+        bottom: 0;
+        right: -0.25rem;
+      }
+
       &__hamburger {
         display none
+      }
+
+      svg path {
+        fill $mainBlack
+      }
+
+      &_invert {
+        color $mainWhite
+        
+        svg path {
+          fill $mainWhite
+        }
+      }
+
+      &_absolute { 
+        .godere-nav__item {
+          color $mainWhite
+
+          &:hover {
+            color $mainWhite
+          }
+        }
       }
     }
 
@@ -163,21 +189,6 @@
         position relative
       }
 
-      &__count {
-        position absolute
-        bottom: 0.5rem;
-        right 0
-        width 1rem
-        height 1rem
-        text-align center
-        line-height 1rem
-        background $secondaryRed
-        color $mainWhite
-        font-size 0.5rem
-        text-decoration none
-        border-radius 1rem
-      }
-
       &__hamburger {
         position: relative;
         display: block;
@@ -220,6 +231,31 @@
           span:nth-child(3) {
             top: 1.4375rem;
             transform: rotateZ(-45deg)
+          }
+        }
+      }
+
+      svg path {
+        fill $mainBlack
+      }
+
+      &_invert {
+        color $mainBlack
+        
+        svg path {
+          fill $mainBlack
+        }
+      }
+
+      &_absolute { 
+        position static
+        margin-bottom: 1rem;
+
+        .godere-nav__item {
+          color $mainBlack
+
+          &:hover {
+            color $mainBlack
           }
         }
       }

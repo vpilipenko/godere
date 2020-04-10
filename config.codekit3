@@ -875,6 +875,17 @@
 		"oS": 1,
 		"rrU": 1
 		},
+	"/src/index.js": {
+		"bF": 2,
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dist/index-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"/src/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -960,7 +971,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-koamaru",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 608229348.62874103
+	"lastBuiltDate": 608231176.64729905
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
