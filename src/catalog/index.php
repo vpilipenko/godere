@@ -12,7 +12,7 @@
 	<!-- Fav -->
 	<!-- Fav end -->
 	<title>Godere - главная</title>
-  <link rel="stylesheet" href="/assets/styles/nouislider.min.css">
+  
 	<link rel="stylesheet" href="/assets/styles/main-min.css">
   
 </head>
@@ -34,6 +34,7 @@
 		<!-- Catalog -->
 		<div class="godere-catalog">
         <div class='godere-filters'>
+          <div class="godere-filters__close">×</div>
           <div class='godere-filters__title'>Цена</div>
           <div class="godere-filters__price">
             <input type="number" min="0" max="10000" step="1" id="priceMin">
@@ -65,6 +66,7 @@
                 <option>Дешевые сверху</option>
                 <option>Дорогие сверху</option>
               </select>
+              <div class="godere-catalog__filter" id='catalogFilters'>фильтр</div>
             </div>
 
 			<div class="godere-catalog__list">

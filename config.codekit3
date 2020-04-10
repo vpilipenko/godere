@@ -17,12 +17,6 @@
 		"oAP": "/dist/.gitignore",
 		"oF": 0
 		},
-	"/dist": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/dist/dist",
-		"oF": 0
-		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
@@ -169,16 +163,15 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/src/assets/img/fb.png": {
-		"ft": 32768,
-		"iS": 297,
-		"oA": 0,
-		"oAP": "/dist/assets/img/fb.png",
+	"/src/assets/img/fb.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/img/fb.svg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/src/assets/img/filter.svg": {
 		"ft": 2097152,
@@ -228,17 +221,6 @@
 		"iS": 8434,
 		"oA": 0,
 		"oAP": "/dist/assets/img/item4.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/src/assets/img/logo_invert.png": {
-		"ft": 32768,
-		"iS": 2240,
-		"oA": 0,
-		"oAP": "/dist/assets/img/logo_invert.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -331,16 +313,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/src/assets/img/vk.png": {
-		"ft": 32768,
-		"iS": 341,
-		"oA": 0,
-		"oAP": "/dist/assets/img/vk.png",
+	"/src/assets/img/vk.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/dist/assets/img/vk.svg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/src/assets/js/main.js": {
 		"bF": 6,
@@ -979,7 +960,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-koamaru",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 608124441.608024
+	"lastBuiltDate": 608229348.62874103
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

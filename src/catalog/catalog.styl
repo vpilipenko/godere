@@ -1,6 +1,7 @@
 .godere{
   &-catalog {
     display flex
+    position: relative
     
     &__content {
 
@@ -21,6 +22,10 @@
     &__list {
       display flex
       justify-content space-between
+    }
+
+    &__filter {
+      display none
     }
   } 
   &-filters {
@@ -106,6 +111,10 @@
         
       }
     }
+
+    &__close {
+      display none
+    }
   }
 }
 
@@ -127,4 +136,71 @@
 }
 .noUi-connect {
   background $secondaryRed
+}
+
+@media screen and (max-width: 1024px) {
+  .godere {
+    &-catalog {
+      flex-direction: column;
+
+      &__list {
+        flex-direction: column;
+      }
+
+      &__select {
+        justify-content: space-between;
+      }
+
+      &__filter {
+        display block
+        position relative
+        padding-left 2rem
+
+        &:before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 1.5rem;
+          height: 1.5rem;
+          background-image: url(/assets/img/filter.svg);
+          background-size: contain;
+        }
+      }
+    }
+    &-filters {
+      display none
+      position absolute
+      left 0
+      width 100%
+      background: $mainWhite;
+      z-index: 10;
+
+      &_active {
+        display block
+      }
+
+      &__close {
+        display: block;
+        position: absolute;
+        right: 0;
+        padding: 0 1rem;
+        font-size: 2rem;
+        top: 0;
+        cursor: pointer;
+      }
+    }
+
+    &-item {
+      margin 0 0 1rem 0
+
+      &:hover {
+        box-shadow none
+
+        .godere-item__button {
+          visibility hidden
+        }
+      }
+    }
+  }
 }

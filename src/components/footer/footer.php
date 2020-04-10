@@ -24,11 +24,11 @@
   </div>
   <div class='godere-footer__col'>
     <div class="godere-footer__title">Мы в соцсетях</div>
-    <a href="#" class="godere-footer__social-link">
-      <img src="/src/assets/img/vk.png" alt="" class="godere-footer__social-img">
+    <a href="http://vk.com" class="godere-footer__social-link">
+      <img src="/assets/img/vk.svg" alt="vk">
     </a>
-    <a href="#" class="godere-footer__social-link">
-      <img src="/src/assets/img/fb.png" alt="" class="godere-footer__social-img">
+    <a href="http://fb.com" class="godere-footer__social-link">
+      <img src="/assets/img/fb.svg" alt="fb">
     </a>
   </div>
 </footer>

@@ -52,3 +52,10 @@ $close.click((e) => {
 
   $preview.removeClass('godere-preview_active')
 })
+
+const $catalogFiltersOpen = $('#catalogFilters')
+const $catalogFiltersClose = $('.godere-filters__close')
+const $catalogFilters = $('.godere-filters')
+
+$catalogFiltersOpen.click(() => $catalogFilters.addClass('godere-filters_active'))
+$catalogFiltersClose.click(() => $catalogFilters.removeClass('godere-filters_active'))

@@ -4,8 +4,8 @@ const $catalogNavItem = $("#catalogNavItem")
 const $catalogPane = $("#catalogPane")
 const left = $cabinetNavItem.position().left
 const $hamburger = $("#hamburger")
+const $nav = $(".godere-nav")
 
-console.log('header.js');
 
 $cabinetNavItem.hover(
   () => {
@@ -30,5 +30,8 @@ $catalogPane.hover(
 );
 
 $hamburger.click(
-  () => { $hamburger.toggleClass('godere-header__hamburger_active') }
+  () => {
+    $hamburger.toggleClass('godere-header__hamburger_active')
+    $nav.toggleClass('godere-nav_active')
+  }
 )
