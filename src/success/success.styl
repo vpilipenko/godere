@@ -2,6 +2,7 @@
   &-success {
     display flex
     justify-content space-between
+    margin-bottom: 2rem;
 
     &__content {
         flex-basis: 100%;
@@ -34,6 +35,14 @@
       width: 150px;
       height: 5px;
       background: $secondaryGrey;
+
+      &:last-child {
+        width 0
+
+        &:after {
+          display none
+        }
+      }
 
       &:after {
         content: '';
@@ -75,6 +84,39 @@
       top: -1.5rem;
       transform: translateX(-50%);
       font-size: 0.75rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .godere {
+    &-success {
+      flex-direction: column;
+    }
+
+    &-progress {
+      margin: 2rem 0;
+      flex-direction: column;
+
+      &__item {
+        width: 5px;
+        height: 50px;
+
+        &_complete {
+          &:first-child {
+            &:before {
+              top -7.5px;
+            }
+          }
+        }
+      }
+
+      &__text {
+        top: 0;
+        left: 2rem;
+        transform: translateY(-50%);
+        white-space: nowrap;
+      }
     }
   }
 }

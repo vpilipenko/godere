@@ -51,7 +51,7 @@
               <span class="godere-progress__text">Создан</span>
             </div>
             <div class="godere-progress__item godere-progress__item_complete">
-              <span class="godere-progress__text">Подтверджен продавцом</span>
+              <span class="godere-progress__text">Подтвержден продавцом</span>
             </div>
             <div class="godere-progress__item">
               <span class="godere-progress__text">Передан курьеру</span>
@@ -71,12 +71,14 @@
                 представителей линейки Battery +.
                 </div>
               </div>
-              <div class="godere-cart__quantity">
-                <div class="godere-cart__minus">-</div>
-                <div class="godere-cart__amount">3</div>
-                <div class="godere-cart__plus">+</div>
+              <div class="godere-cart__opts">
+                <div class="godere-cart__quantity">
+                  <div class="godere-cart__minus">-</div>
+                  <div class="godere-cart__amount">3</div>
+                  <div class="godere-cart__plus">+</div>
+                </div>
+                <div class="godere-cart__price">3 240 ₽</div>
               </div>
-              <div class="godere-cart__price">3 240 ₽</div>
               <div class="godere-cart__close">×</div>
               </li>
               <li class="godere-cart__item">
@@ -87,12 +89,14 @@
                 представителей линейки Battery +.
                 </div>
               </div>
-              <div class="godere-cart__quantity">
-                <div class="godere-cart__minus">-</div>
-                <div class="godere-cart__amount">3</div>
-                <div class="godere-cart__plus">+</div>
+              <div class="godere-cart__opts">
+                <div class="godere-cart__quantity">
+                  <div class="godere-cart__minus">-</div>
+                  <div class="godere-cart__amount">3</div>
+                  <div class="godere-cart__plus">+</div>
+                </div>
+                <div class="godere-cart__price">3 240 ₽</div>
               </div>
-              <div class="godere-cart__price">3 240 ₽</div>
               <div class="godere-cart__close">×</div>
               </li>
               <li class="godere-cart__item">
@@ -103,12 +107,14 @@
                 представителей линейки Battery +.
                 </div>
               </div>
-              <div class="godere-cart__quantity">
-                <div class="godere-cart__minus">-</div>
-                <div class="godere-cart__amount">3</div>
-                <div class="godere-cart__plus">+</div>
+              <div class="godere-cart__opts">
+                <div class="godere-cart__quantity">
+                  <div class="godere-cart__minus">-</div>
+                  <div class="godere-cart__amount">3</div>
+                  <div class="godere-cart__plus">+</div>
+                </div>
+                <div class="godere-cart__price">3 240 ₽</div>
               </div>
-              <div class="godere-cart__price">3 240 ₽</div>
               <div class="godere-cart__close">×</div>
               </li>
             </ul>
