@@ -1,6 +1,7 @@
 .godere-checkout {
   display flex
   justify-content space-between
+  margin-bottom: 2rem;
 
   &__content {
     flex-basis: 50%;
@@ -23,11 +24,12 @@
     }
 
     select {
-      width: 200px;
-      height: 2rem;
+      width: 48%;
+      height: 2.25rem;
       border: 1px solid $secondaryGrey;
       background: $mainWhite;
       margin-bottom: 1rem;
+      border-radius: 8px;
     }
 
     textarea {
@@ -89,6 +91,26 @@
         border-radius 1rem
       }
       
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .godere {
+    &-checkout {
+      flex-direction: column;
+
+      &__content {
+        margin-bottom: 2rem;
+      }
+
+      &__item {
+        width: 100%;
+        
+        select {
+          width: 100%;
+        }
+      }
     }
   }
 }
