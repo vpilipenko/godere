@@ -1,15 +1,16 @@
 .godere-breadcrumbs {
   display flex
+  margin-top: 1rem;
 
   &__link {
     color: $secondaryRed
     position relative
-    margin-right 0.5rem
+    margin-right 1rem
 
     &:after {
         content: '/';
         position: absolute;
-        right: -0.25rem;
+        right: -0.75rem;
         left: auto;
     }
 
@@ -18,7 +19,7 @@
         color $mainBlack   
 
         &:after {
-            display none
+          display none
         } 
     }
   }
