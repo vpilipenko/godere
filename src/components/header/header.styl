@@ -8,6 +8,7 @@
     top 0
     width 100%
     z-index 1
+    padding: 0 2rem;
   }
 
   &__search, &__cart {
@@ -44,7 +45,7 @@
     }
 
     &-header {
-      color $grey1000
+      color $mainGrey
 
       &__container {
         position relative
@@ -98,7 +99,7 @@
         font-size 16px
         line-height 24px
         padding 2rem 1rem
-        color inherit
+        color $mainBlack
         text-decoration: none
         cursor context-menu
 
@@ -113,6 +114,7 @@
         width 100%
         display none
         background-color $mainWhite
+        color $mainBlack
         padding 2rem 0
         border-radius .5rem
         box-shadow 0 1rem 1rem rgba($grey1000, .32)
@@ -164,15 +166,13 @@
 
 @media screen and (max-width: 1024px) {
   .godere {
-    &-container {
-      padding: 1rem;
-    }
-    
+
     &-logo {
       position relative
       width 100px
       z-index: 100
     }
+
     &-header {
       &__sub {
         position: absolute;
@@ -248,8 +248,9 @@
       }
 
       &_absolute { 
-        position static
-        margin-bottom: 1rem;
+        position: static;
+        padding: 0;
+        margin-bottom: 0.5rem;
 
         .godere-nav__item {
           color $mainBlack

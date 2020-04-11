@@ -8,12 +8,15 @@
       представителей линейки Battery +.
       </div>
     </div>
-    <div class="godere-preview__quantity">
-      <div class="godere-preview__minus">-</div>
-      <div class="godere-preview__amount">3</div>
-      <div class="godere-preview__plus">+</div>
+    
+    <div class="godere-preview__opts">
+      <div class="godere-preview__quantity">
+        <div class="godere-preview__minus">-</div>
+        <div class="godere-preview__amount">3</div>
+        <div class="godere-preview__plus">+</div>
+      </div>
+      <div class="godere-preview__price">3 240 ₽</div>
     </div>
-    <div class="godere-preview__price">3 240 ₽</div>
     <div class="godere-preview__close">×</div>
     </li>
   </ul>

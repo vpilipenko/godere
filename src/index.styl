@@ -2,7 +2,7 @@
   background $mainRed
   height 580px
   position relative
-  padding 1rem
+  margin: -1rem -2rem;
   
   &__txt {
     position absolute
@@ -19,6 +19,12 @@
 
   &__description {
     color: $mainWhite
+  }
+
+  img {
+    position: relative;
+    top: 100px;
+    left: 50px;
   }
 }
 
@@ -74,8 +80,14 @@
   .godere {
     &-top {
       margin: 0 -1rem 3rem;
+      padding: 1rem;
       display: flex;
       flex-direction: column-reverse;
+
+      img {
+        top 0
+        left 0
+      }
 
       &__txt {
         position: relative;
