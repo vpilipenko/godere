@@ -66,19 +66,18 @@
 			<img class="godere-banner" src="/src/assets/img/banner.png" alt="">
 		</div> 
 
-
 		<h2>Наши партнеры</h2>
 		<!-- Partners -->
 		<div class='godere-partners'>
-			<div class="godere-partners__item">
+			<a href='#' class="godere-partners__item">
 				<img class="godere-partners__img" src="/src/assets/img/partner1.png" alt="Logo">  
-			</div>
-			<div class="godere-partners__item">
+			</a>
+			<a href='#' class="godere-partners__item">
 				<img class="godere-partners__img" src="/src/assets/img/partner2.png" alt="Logo">  
-			</div>
-			<div class="godere-partners__item">
+			</a>
+			<a href='#' class="godere-partners__item">
 				<img class="godere-partners__img" src="/src/assets/img/partner3.png" alt="Logo">  
-			</div>
+			</a>
 		</div>
 		<!-- End Partners -->
 	</div>

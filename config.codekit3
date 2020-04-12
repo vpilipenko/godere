@@ -17,6 +17,12 @@
 		"oAP": "/dist/.gitignore",
 		"oF": 0
 		},
+	"/dist": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/dist/dist",
+		"oF": 0
+		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
@@ -82,7 +88,7 @@
 		},
 	"/src/assets/img/banner.png": {
 		"ft": 32768,
-		"iS": 249647,
+		"iS": 180904,
 		"oA": 0,
 		"oAP": "/dist/assets/img/banner.png",
 		"oF": 0,
@@ -251,7 +257,7 @@
 		},
 	"/src/assets/img/partner1.png": {
 		"ft": 32768,
-		"iS": 10623,
+		"iS": 11954,
 		"oA": 0,
 		"oAP": "/dist/assets/img/partner1.png",
 		"oF": 0,
@@ -262,7 +268,7 @@
 		},
 	"/src/assets/img/partner2.png": {
 		"ft": 32768,
-		"iS": 7206,
+		"iS": 7362,
 		"oA": 0,
 		"oAP": "/dist/assets/img/partner2.png",
 		"oF": 0,
@@ -273,7 +279,7 @@
 		},
 	"/src/assets/img/partner3.png": {
 		"ft": 32768,
-		"iS": 23433,
+		"iS": 20542,
 		"oA": 0,
 		"oAP": "/dist/assets/img/partner3.png",
 		"oF": 0,
@@ -982,7 +988,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-koamaru",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 608387640.915066
+	"lastBuiltDate": 608402670.92593706
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

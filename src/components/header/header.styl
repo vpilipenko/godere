@@ -1,34 +1,50 @@
-.godere-header {
-  display: flex
-  justify-content: space-between
+.godere {
+  &-header {
+    display: flex
+    justify-content: space-between
 
-  &_absolute {
-    position absolute
-    left 0
-    top 0
-    width 100%
-    z-index 1
-    padding: 0 2rem
+    &_absolute {
+      position absolute
+      left 0
+      top 0
+      width 100%
+      z-index 1
+      padding: 0 2rem
+    }
+
+    &__search, &__cart {
+      position relative
+      padding: 0 0.5rem
+    }
+
+    &__count {
+      position absolute
+      bottom: 0.5rem
+      right 0
+      width 1rem
+      height 1rem
+      text-align center
+      line-height 1rem
+      background $secondaryRed
+      color $mainWhite
+      font-size 0.5rem
+      text-decoration none
+      border-radius 1rem
+    }
   }
 
-  &__search, &__cart {
-    position relative
-    padding: 0 0.5rem
-  }
+  &-nav {
+    &__item {
+      svg {
+        display none
+      }
 
-  &__count {
-    position absolute
-    bottom: 0.5rem
-    right 0
-    width 1rem
-    height 1rem
-    text-align center
-    line-height 1rem
-    background $secondaryRed
-    color $mainWhite
-    font-size 0.5rem
-    text-decoration none
-    border-radius 1rem
+      &_cabinet {
+        svg {
+          display block
+        }
+      }
+    }
   }
 }
 
@@ -96,10 +112,10 @@
       margin-left auto
 
       &__item {
+        position relative
         display inline-flex
-        font-size 16px
-        line-height 24px
-        padding 2rem 1rem
+        line-height 1.5rem
+        padding 2rem 1.5rem
         color $mainBlack
         text-decoration: none
         cursor context-menu
@@ -142,8 +158,8 @@
       &__link {
         display inline-flex
         color inherit
-        font-size 14px
-        line-height 18px
+        font-size 0.875rem
+        line-height 1.125rem
         text-decoration none
         cursor pointer
         padding .25rem 0
@@ -153,14 +169,14 @@
         }
 
         &_title {
-          font-size 18px
-          line-height 24px
+          font-size 1.125rem
+          line-height 1.5rem
           font-weight $bold
         }
       }
     }
   }
-  a.godere-nav__item {
+  a.godere-nav__item, .godere-nav__item_login {
     cursor pointer
   }
 }
@@ -169,6 +185,7 @@
   .godere {
 
     &-logo {
+      display: block;
       position relative
       width 100px
       z-index: 100
@@ -281,6 +298,7 @@
 
       &_active {
         display flex
+        overflow auto
       }
 
       &__item {

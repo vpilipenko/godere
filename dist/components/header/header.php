@@ -53,7 +53,20 @@
       <a class='godere-nav__item' href='#'>Доставка</a>
       <a class='godere-nav__item' href='#'>О нас</a>
 
-      <div class='godere-nav__item' id='cabinetNavItem'>Личный кабинет</div>
+      <div class='godere-nav__item godere-nav__item_login' id='cabinetNavItem'>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0)">
+          <path d="M10.8284 1.17159C12.3905 2.73368 12.3905 5.26634 10.8284 6.82843C9.26631 8.39051 6.73365 8.39051 5.17157 6.82843C3.60948 5.26634 3.60948 2.73368 5.17157 1.17159C6.73365 -0.39053 9.26631 -0.39053 10.8284 1.17159Z" fill="white"/>
+          <path d="M14.1357 10.8828C10.4893 8.41895 5.51073 8.41895 1.86425 10.8828C1.32322 11.2481 1 11.8652 1 12.5342V16H15V12.5342C15 11.8652 14.6767 11.2481 14.1357 10.8828Z" fill="white"/>
+          </g>
+          <defs>
+          <clipPath id="clip0">
+          <rect width="24" height="24" fill="white"/>
+          </clipPath>
+          </defs>
+        </svg>
+        <span class="godere-nav__user">Личный кабинет</span>
+      </div>
       <div class='godere-nav__pane godere-nav__pane_personal' id='cabinetPane'>
         <a href='#' class='godere-nav__link'>Личные данные</a>
         <a href='#' class='godere-nav__link'>Адреса</a>

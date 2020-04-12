@@ -4,20 +4,24 @@
   margin: -1rem -2rem 2rem
   
   &__txt {
-    position absolute
-    bottom: 100px
-    right: 100px
-    width: 500px
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 100px;
+    width: 500px;
   }
 
   &__title {
     color: $mainWhite
-    font-size 1.5rem
-    margin-bottom 0.2rem
+    font-size: 2rem;
+    font-weight: $bold;
+    margin-bottom: 1rem;
   }
 
   &__description {
     color: $mainWhite
+    font-size 1.125rem
+    line-height 1.75rem
   }
 
   img {
@@ -37,6 +41,7 @@
     padding: .5rem 2.5rem
     border-radius: 5rem
     margin-right 1rem
+    font-size 1.125rem
 
     &:hover {
       box-shadow 0 0 2px $secondaryRed
@@ -73,6 +78,11 @@
 .godere-list {
   display flex
   justify-content space-between
+  margin: 0 -1rem;
+}
+
+.godere-banner {
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
@@ -93,6 +103,7 @@
         top: 0
         width: 100%
         right: 0
+        transform: none;
       }
 
       img {
