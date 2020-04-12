@@ -7,7 +7,7 @@
 		"uuidString": "F8601327-F73B-48D2-A9A7-B17115ED7648"
 		}
 	],
-"creatorBuild": "31934",
+"creatorBuild": "32001",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -15,12 +15,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/dist/.gitignore",
-		"oF": 0
-		},
-	"/dist": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/dist/dist",
 		"oF": 0
 		},
 	"/node_modules": {
@@ -649,6 +643,17 @@
 		"oS": 1,
 		"rrU": 1
 		},
+	"/src/cart/cart.js": {
+		"bF": 2,
+		"ft": 64,
+		"ma": 1,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dist/cart/cart-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 1
+		},
 	"/src/cart/cart.styl": {
 		"aP": 1,
 		"bl": 0,
@@ -977,7 +982,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-koamaru",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 608231176.64729905
+	"lastBuiltDate": 608387640.915066
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1573,6 +1578,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"grouped-accessor-pairs": {
+			"active": 0,
+			"optionString": "'anyOrder'"
+			},
 		"guard-for-in": {
 			"active": 0,
 			"optionString": ""
@@ -1749,6 +1758,10 @@
 			"active": 1,
 			"optionString": "{'checkLoops': true}"
 			},
+		"no-constructor-return": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-continue": {
 			"active": 0,
 			"optionString": ""
@@ -1774,6 +1787,10 @@
 			"optionString": ""
 			},
 		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-else-if": {
 			"active": 1,
 			"optionString": ""
 			},
@@ -2077,6 +2094,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-setter-return": {
+			"active": 1,
+			"optionString": ""
+			},
 		"no-shadow": {
 			"active": 0,
 			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
@@ -2280,6 +2301,10 @@
 		"prefer-destructuring": {
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-exponentiation-operator": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-named-capture-group": {
 			"active": 0,

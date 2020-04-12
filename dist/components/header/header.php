@@ -7,46 +7,46 @@
       <div class='godere-nav__item' id='catalogNavItem'>Каталог</div>
       <div class='godere-nav__pane' id='catalogPane'>
         <div class='godere-nav__block'>
-          <a href='#' class='godere-nav__link godere-nav__link_title'>Для женщин</a>
-          <a href='#' class='godere-nav__link'>Вибраторы</a>
-          <a href='#' class='godere-nav__link'>Фаллоимитаторы</a>
-          <a href='#' class='godere-nav__link'>Вибромассажеры</a>
-          <a href='#' class='godere-nav__link'>Анальные</a>
+          <a href='/catalog' class='godere-nav__link godere-nav__link_title'>Для женщин</a>
+          <a href='/catalog' class='godere-nav__link'>Вибраторы</a>
+          <a href='/catalog' class='godere-nav__link'>Фаллоимитаторы</a>
+          <a href='/catalog' class='godere-nav__link'>Вибромассажеры</a>
+          <a href='/catalog' class='godere-nav__link'>Анальные</a>
         </div>
         <div class='godere-nav__block'>
-          <a href='#' class='godere-nav__link godere-nav__link_title'>Для мужчин</a>
-          <a href='#' class='godere-nav__link'>Вибраторы</a>
-          <a href='#' class='godere-nav__link'>Фаллоимитаторы</a>
-          <a href='#' class='godere-nav__link'>Вибромассажеры</a>
-          <a href='#' class='godere-nav__link'>Анальные</a>
+          <a href='/catalog' class='godere-nav__link godere-nav__link_title'>Для мужчин</a>
+          <a href='/catalog' class='godere-nav__link'>Вибраторы</a>
+          <a href='/catalog' class='godere-nav__link'>Фаллоимитаторы</a>
+          <a href='/catalog' class='godere-nav__link'>Вибромассажеры</a>
+          <a href='/catalog' class='godere-nav__link'>Анальные</a>
         </div>
         <div class='godere-nav__block'>
-          <a href='#' class='godere-nav__link godere-nav__link_title'>Для пар</a>
-          <a href='#' class='godere-nav__link'>Вибраторы</a>
-          <a href='#' class='godere-nav__link'>Фаллоимитаторы</a>
-          <a href='#' class='godere-nav__link'>Вибромассажеры</a>
-          <a href='#' class='godere-nav__link'>Анальные</a>
+          <a href='/catalog' class='godere-nav__link godere-nav__link_title'>Для пар</a>
+          <a href='/catalog' class='godere-nav__link'>Вибраторы</a>
+          <a href='/catalog' class='godere-nav__link'>Фаллоимитаторы</a>
+          <a href='/catalog' class='godere-nav__link'>Вибромассажеры</a>
+          <a href='/catalog' class='godere-nav__link'>Анальные</a>
         </div>
         <div class='godere-nav__block'>
-          <a href='#' class='godere-nav__link godere-nav__link_title'>БДСМ и фетиш</a>
-          <a href='#' class='godere-nav__link'>Вибраторы</a>
-          <a href='#' class='godere-nav__link'>Фаллоимитаторы</a>
-          <a href='#' class='godere-nav__link'>Вибромассажеры</a>
-          <a href='#' class='godere-nav__link'>Анальные</a>
+          <a href='/catalog' class='godere-nav__link godere-nav__link_title'>БДСМ и фетиш</a>
+          <a href='/catalog' class='godere-nav__link'>Вибраторы</a>
+          <a href='/catalog' class='godere-nav__link'>Фаллоимитаторы</a>
+          <a href='/catalog' class='godere-nav__link'>Вибромассажеры</a>
+          <a href='/catalog' class='godere-nav__link'>Анальные</a>
         </div>
         <div class='godere-nav__block'>
-          <a href='#' class='godere-nav__link godere-nav__link_title'>Аксессуары</a>
-          <a href='#' class='godere-nav__link'>Вибраторы</a>
-          <a href='#' class='godere-nav__link'>Фаллоимитаторы</a>
-          <a href='#' class='godere-nav__link'>Вибромассажеры</a>
-          <a href='#' class='godere-nav__link'>Анальные</a>
+          <a href='/catalog' class='godere-nav__link godere-nav__link_title'>Аксессуары</a>
+          <a href='/catalog' class='godere-nav__link'>Вибраторы</a>
+          <a href='/catalog' class='godere-nav__link'>Фаллоимитаторы</a>
+          <a href='/catalog' class='godere-nav__link'>Вибромассажеры</a>
+          <a href='/catalog' class='godere-nav__link'>Анальные</a>
         </div>
         <div class='godere-nav__block'>
-          <a href='#' class='godere-nav__link godere-nav__link_title'>Бренды</a>
-          <a href='#' class='godere-nav__link'>Doc Johnson</a>
-          <a href='#' class='godere-nav__link'>Fun Factory</a>
-          <a href='#' class='godere-nav__link'>Gopaldas</a>
-          <a href='#' class='godere-nav__link'>Jimmy Jane</a>
+          <a href='/catalog' class='godere-nav__link godere-nav__link_title'>Бренды</a>
+          <a href='/catalog' class='godere-nav__link'>Doc Johnson</a>
+          <a href='/catalog' class='godere-nav__link'>Fun Factory</a>
+          <a href='/catalog' class='godere-nav__link'>Gopaldas</a>
+          <a href='/catalog' class='godere-nav__link'>Jimmy Jane</a>
         </div>
       </div>
 
