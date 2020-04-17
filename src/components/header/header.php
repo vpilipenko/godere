@@ -54,17 +54,18 @@
       <a class='godere-nav__item' href='#'>О нас</a>
 
       <div class='godere-nav__item godere-nav__item_login' id='cabinetNavItem'>
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0)">
-          <path d="M10.8284 1.17159C12.3905 2.73368 12.3905 5.26634 10.8284 6.82843C9.26631 8.39051 6.73365 8.39051 5.17157 6.82843C3.60948 5.26634 3.60948 2.73368 5.17157 1.17159C6.73365 -0.39053 9.26631 -0.39053 10.8284 1.17159Z" fill="white"/>
-          <path d="M14.1357 10.8828C10.4893 8.41895 5.51073 8.41895 1.86425 10.8828C1.32322 11.2481 1 11.8652 1 12.5342V16H15V12.5342C15 11.8652 14.6767 11.2481 14.1357 10.8828Z" fill="white"/>
-          </g>
-          <defs>
-          <clipPath id="clip0">
-          <rect width="24" height="24" fill="white"/>
-          </clipPath>
-          </defs>
-        </svg>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0)">
+        <path d="M10.8285 1.17159C12.3906 2.73368 12.3906 5.26634 10.8285 6.82843C9.26644 8.39051 6.73378 8.39051 5.17169 6.82843C3.6096 5.26634 3.6096 2.73368 5.17169 1.17159C6.73378 -0.39053 9.26644 -0.39053 10.8285 1.17159Z" fill="white"/>
+        <path d="M14.1357 10.8829C10.4893 8.41901 5.51073 8.41901 1.86425 10.8829C1.32322 11.2481 1 11.8653 1 12.5342V16.0001H15V12.5342C15 11.8653 14.6767 11.2481 14.1357 10.8829Z" fill="white"/>
+        </g>
+        <defs>
+        <clipPath id="clip0">
+        <rect width="16" height="16" fill="white"/>
+        </clipPath>
+        </defs>
+      </svg>
+
         <span class="godere-nav__user">Личный кабинет</span>
       </div>
       <div class='godere-nav__pane godere-nav__pane_personal' id='cabinetPane'>
